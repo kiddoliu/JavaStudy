@@ -8,7 +8,7 @@ import java.util.Random;
 
 class A
 {
-    int i = 50;
+    int i = 10;
     @Override
     protected void finalize() throws Throwable{
         System.out.println("final");
