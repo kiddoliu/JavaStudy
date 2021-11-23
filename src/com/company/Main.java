@@ -79,6 +79,7 @@ public class Main {
              ) {
             files.add(file);
             longErgodic(file, files);
+            System.out.println("sdfdsf");
         }
     }
 }
