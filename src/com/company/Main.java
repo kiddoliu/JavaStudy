@@ -71,6 +71,7 @@ public class Main {
     public static void longErgodic(File file4, List<File> files){
         File[] fillarr = file4.listFiles();
         if(fillarr == null){
+            System.out.println("ddddfdf");
             return;
         }
 
