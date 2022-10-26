@@ -15,6 +15,7 @@ class A
 
         System.out.println("final");
         System.out.println("final");
+        System.out.println("final");
     }
 
 }
@@ -62,7 +63,7 @@ public class Main {
         fw.write("你好");
         System.out.println(fw.getEncoding());
         fw.append("ddd");
-        fw.flush();
+        w.flush();
 
         FileReader fr = new FileReader(file2);
         String sb = new String();
