@@ -15,6 +15,7 @@ class A
 
         System.out.println("final");
         System.out.println("final");
+        System.out.println("final");
     }
 
 }
