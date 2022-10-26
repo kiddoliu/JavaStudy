@@ -8,9 +8,12 @@ import java.util.Random;
 
 class A
 {
+
     int i = 10;
     @Override
     protected void finalize() throws Throwable{
+
+        System.out.println("final");
         System.out.println("final");
     }
 
